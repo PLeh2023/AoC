@@ -47,7 +47,6 @@ public class Day1 {
     }
     //Additionsmethode von einem String
     private static int zahlenFinder(String zeile){
-        String neuInput = "";
         //Lokale Variablen
         char Zahl1 ='\0';
         char Zahl2 ='\0';

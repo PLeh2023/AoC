@@ -31,7 +31,7 @@ public class Day6 {
                 //35,93,73,66
                 //212,2060,1201,1044
                 input[i] = line.replace("Time:","").trim().replace("Distance:","")
-                        .trim().replaceAll("\\s+","");
+                        .trim().replaceAll("\\s+","");// oder fuer part1 mit ","
                 i++;
             }
             bufferedReader.close();
